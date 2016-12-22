@@ -7,6 +7,8 @@ namespace CefSharp.MinimalExample.Wpf
     {
         public App()
         {
+            Cef.EnableHighDPISupport();
+
             //Perform dependency check to make sure all relevant resources are in our output directory.
             var settings = new CefSettings();
 
